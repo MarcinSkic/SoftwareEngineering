@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<document>
+    <personalData>
+        <fullName>Marcin Skic</fullName>
+        <address> ul. Przykładowa 5 Miasto</address>
+        <email>przykladowy@mail.com</email>
+        <telephone>123456789</telephone>
+    </personalData>
+    <returnedProduct>
+        <purchaseReceipt>99123234</purchaseReceipt>
+        <products>
+            <product>
+                <name>Książka</name>
+                <quantity>1</quantity>
+                <price>30.5</price>
+            </product>
+            <product>
+                <name>Fidget Spinner</name>
+                <quantity>3</quantity>
+                <price>15.99</price>
+            </product>
+        </products>
+        <returnReason>2</returnReason>
+        <totalPrice>78.47</totalPrice>
+        <date type="purchased">20.09.2016</date>
+        <signature>skic</signature>
+    </returnedProduct>
+    <paymentData>
+        <bankAccount>23423423985623075623</bankAccount>
+        <fullName>Marcin Skic</fullName>
+        <address> ul. Przykładowa 5 Miasto</address>
+        <date type="formFilled">29.03.2022</date>
+        <signature>skic</signature>
+    </paymentData>
+</document>

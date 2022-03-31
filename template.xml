@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<samochody>
+    <auto dane="do sprzedaży">
+        <marka>Ford</marka>
+        <model>Mondeo</model>
+        <rokProdukcji>2000</rokProdukcji>
+    </auto>
+    <auto dane="sprzedany">
+        <marka>Audi</marka>
+        <model>A3</model>
+        <rokProdukcji>2010</rokProdukcji>
+    </auto>
+</samochody>
