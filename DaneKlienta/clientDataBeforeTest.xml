@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<document>
+    <fullName>Marcin Skic</fullName>
+    <PESEL>01238942387</PESEL>
+    <address>ul. Przykładowa 5 Miasto</address>
+    <email>przykladowy@mail.com</email>
+    <telephone>123456789</telephone>
+    <date type="formFilled">02.04.2022</date>
+    <signature>skic</signature>
+</document>
