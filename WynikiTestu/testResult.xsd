@@ -1,0 +1,81 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="document">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="companyData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element name="address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="street"/>
+                    <xs:element type="xs:short" name="postalCode"/>
+                    <xs:element type="xs:string" name="town"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:int" name="telephone"/>
+              <xs:element type="xs:anyURI" name="website"/>
+              <xs:element type="xs:string" name="email"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="clientData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="fullName"/>
+              <xs:element type="xs:int" name="PESEL"/>
+              <xs:element type="xs:date" name="birthDate"/>
+              <xs:element type="xs:byte" name="age"/>
+              <xs:element type="xs:string" name="gender"/>
+              <xs:element name="address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="street"/>
+                    <xs:element type="xs:short" name="postalCode"/>
+                    <xs:element type="xs:string" name="town"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="realizationData">
+          <xs:complexType>
+            <xs:choice maxOccurs="unbounded" minOccurs="0">
+              <xs:element type="xs:string" name="contractor"/>
+              <xs:element type="xs:long" name="barCode"/>
+              <xs:element type="xs:string" name="sample"/>
+              <xs:element type="xs:string" name="conductedBy"/>
+              <xs:element name="date">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="type" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="test" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="disease"/>
+                    <xs:element type="xs:string" name="type"/>
+                    <xs:element type="xs:string" name="result"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

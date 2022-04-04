@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="yes"?>
+<document>
+    <companyData>
+        <name>Laboratorium Diagnostyczne Maklab Sp.z o.o.</name>
+        <address>
+            <street>Krasnystawska 52</street>
+            <postalCode>21010</postalCode>
+            <town>Łęczna</town>
+        </address>
+        <telephone>795007215</telephone>
+        <website>www.maklab.pl</website>
+        <email>info@maklab.pl</email>
+    </companyData>
+    <clientData>
+        <fullName>Marcin Skic</fullName>
+        <PESEL>01234567891</PESEL>
+        <birthDate>2001-01-31</birthDate>
+        <age>20</age>
+        <gender>M</gender>
+        <address>
+            <street>Przykładowa 12</street>
+            <postalCode>07734</postalCode>
+            <town>Miasto</town>
+        </address>
+    </clientData>
+    <realizationData>
+        <contractor>(S Ś) SPZOZ Świdnik</contractor>
+        <barCode>8730543020</barCode>
+        <sample>Wymaz z nosogardzieli</sample>
+        <conductedBy>mgr Imię Nazwisko Stanowisko ID</conductedBy>
+        <date type="sampleTaken">2022-03-01 13:08</date>
+        <date type="commisioned">2022-03-01 18:13</date>
+        <date type="resultsPrinted">2022-03-01 21:31</date>
+    </realizationData>
+    <results>
+        <test>
+            <disease>SARS-CoV-2</disease>
+            <type>RT-PCR</type>
+            <result>NEGATIVE</result>
+        </test>
+        <test>
+            <disease>Influenza</disease>
+            <type>RT-PCR</type>
+            <result>NEGATIVE</result>
+        </test>
+        <test>
+            <disease>RSV</disease>
+            <type>RT-PCR</type>
+            <result>NEGATIVE</result>
+        </test>
+    </results>
+</document>
